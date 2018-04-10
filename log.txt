@@ -1,0 +1,26 @@
+ 
+=============== Tweets Entry Start ===============
+Mon Apr 09 2018 21:48:26 GMT-0400 (EDT)
+ 
+TERMINAL COMMANDS:
+$: /usr/local/bin/node,/Users/ornelahunda/liri-node-app/liri.js,my-tweets,one
+ 
+DATA OUTPUT:
+1. Tweet: I was made to open a twitter account!! This was not voluntary!! 😩
+#myfirstTweet
+Created at: Mon Apr 09 14:25:48 +0000 2018 
+=============== LOG ENTRY END ===============
+ 
+=============== Tweets Entry Start ===============
+Tue Apr 10 2018 13:13:55 GMT-0400 (EDT)
+ 
+TERMINAL COMMANDS:
+$: /usr/local/bin/node,/Users/ornelahunda/liri-node-app/liri.js,my-tweets
+ 
+DATA OUTPUT:
+1. Tweet: I was made to open a twitter account!! This was not voluntary!! 😩
+#myfirstTweet
+Created at: Mon Apr 09 14:25:48 +0000 2018 
+=============== LOG ENTRY END ===============
+ 
+
