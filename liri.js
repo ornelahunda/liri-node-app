@@ -53,17 +53,17 @@ switch (action) {
         getTweets();
         break;
 
-    // case "spotify-this-song":
-    //     spotifySong();
-    //     break;
+        // case "spotify-this-song":
+        //     spotifySong();
+        //     break;
 
     case "movie-this":
         movie();
         break;
 
-        // case "do-what-it-says":
-        //     random();
-        //     break;
+    case "do-what-it-says":
+        random();
+        break;
 }
 
 
@@ -178,29 +178,29 @@ function getTweets() {
 
 
 
-// // Uses fs node package to take the text inside random.txt,
-// // and do something with it.
-// function random() {
+// Uses fs node package to take the text inside random.txt,
+// and do something with it.
+function random() {
 
-// 	fs.readFile("random.txt", "utf8", function(err, data) {
-// 		if (err) {
-// 			logOutput.error(err);
-// 		} else {
+    fs.readFile("random.txt", "utf8", function (err, data) {
+        if (err) {
+            logOutput.error(err);
+        } else {
 
-// 			// Creates array with data.
-// 			var randomArray = data.split(",");
+            // Creates array with data.
+            var randomArray = data.split(",");
 
-// 			// Sets action to first item in array.
-// 			action = randomArray[0];
+            // Sets action to first item in array.
+            action = randomArray[0];
 
-// 			// Sets optional third argument to second item in array.
-// 			argument = randomArray[1];
+            // Sets optional third argument to second item in array.
+            argument = randomArray[1];
 
-// 			// Calls main controller to do something based on action and argument.
-// 			doSomething(action, argument);
-// 		}
-// 	});
-// }
+            // Calls main controller to do something based on action and argument.
+            doSomething(action, argument);
+        }
+    });
+}
 
 
 // Function movie, is going to be used to give user information about the movie they want to search
@@ -215,7 +215,7 @@ function getTweets() {
 // * Actors in the movie.
 
 function movie() {
-    var queryUrl = "http://www.omdbapi.com/?t="  + searchFor + "&y=&plot=short&apikey=trilogy";
+    var queryUrl = "http://www.omdbapi.com/?t=" + searchFor + "&y=&plot=short&apikey=trilogy";
     console.log(queryUrl);
     request(queryUrl, function (error, response, body) {
         if (!error && response.statusCode === 200) {
@@ -224,19 +224,19 @@ function movie() {
             console.log(' ');
             console.log('Title: ' + jsonBody.Title);
             console.log('Year: ' + jsonBody.Year);
-            console.log('IMDb Rating: ' + jsonBody.imdbRating); 
+            console.log('IMDb Rating: ' + jsonBody.imdbRating);
             console.log('Rotten Tomatoes Rating: ' + jsonBody.tomatoRating);
             console.log('Country: ' + jsonBody.Country);
             console.log('Language: ' + jsonBody.Language);
             console.log('Plot: ' + jsonBody.Plot);
             console.log('Actors: ' + jsonBody.Actors);
-           
-            
+
+
             console.log('Rotten Tomatoes URL: ' + jsonBody.tomatoURL);
-           
-//             fs.appendFile('log.txt', ('=============== LOG ENTRY BEGIN ===============\r\n' + Date() + '\r\n \r\nTERMINAL COMMANDS: ' + process.argv + '\r\nDATA OUTPUT:\r\n' + 'Title: ' + jsonBody.Title + '\r\nYear: ' + jsonBody.Year + '\r\nIMDb Rating: ' + jsonBody.imdbRating + '\r\nCountry: ' + jsonBody.Country + '\r\nLanguage: ' + jsonBody.Language + '\r\nPlot: ' + jsonBody.Plot + '\r\nActors: ' + jsonBody.Actors + '\r\nRotten Tomatoes Rating: ' + jsonBody.tomatoRating + '\r\nRotten Tomatoes URL: ' + jsonBody.tomatoURL + '\r\n =============== LOG ENTRY END ===============\r\n \r\n'), function (err) {
-//                 if (err) throw err;
-//             });
+
+            //             fs.appendFile('log.txt', ('=============== LOG ENTRY BEGIN ===============\r\n' + Date() + '\r\n \r\nTERMINAL COMMANDS: ' + process.argv + '\r\nDATA OUTPUT:\r\n' + 'Title: ' + jsonBody.Title + '\r\nYear: ' + jsonBody.Year + '\r\nIMDb Rating: ' + jsonBody.imdbRating + '\r\nCountry: ' + jsonBody.Country + '\r\nLanguage: ' + jsonBody.Language + '\r\nPlot: ' + jsonBody.Plot + '\r\nActors: ' + jsonBody.Actors + '\r\nRotten Tomatoes Rating: ' + jsonBody.tomatoRating + '\r\nRotten Tomatoes URL: ' + jsonBody.tomatoURL + '\r\n =============== LOG ENTRY END ===============\r\n \r\n'), function (err) {
+            //                 if (err) throw err;
+            //             });
         }
     });
 }
