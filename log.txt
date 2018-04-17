@@ -1,19 +1,4 @@
- 
-=============== Tweets Entry Start ===============
-Mon Apr 09 2018 21:48:26 GMT-0400 (EDT)
- 
-TERMINAL COMMANDS:
-$: /usr/local/bin/node,/Users/ornelahunda/liri-node-app/liri.js,my-tweets,one
- 
-DATA OUTPUT:
-1. Tweet: I was made to open a twitter account!! This was not voluntary!! 😩
-#myfirstTweet
-Created at: Mon Apr 09 14:25:48 +0000 2018 
-=============== LOG ENTRY END ===============
- 
-=============== Tweets Entry Start ===============
-Tue Apr 10 2018 13:13:55 GMT-0400 (EDT)
- 
+
 TERMINAL COMMANDS:
 $: /usr/local/bin/node,/Users/ornelahunda/liri-node-app/liri.js,my-tweets
  
@@ -24,3 +9,166 @@ Created at: Mon Apr 09 14:25:48 +0000 2018
 =============== LOG ENTRY END ===============
  
 
+=============== LOG ENTRY BEGIN ===============
+Mon Apr 16 2018 16:23:45 GMT-0400 (EDT)
+ 
+TERMINAL COMMANDS:
+$: /usr/local/bin/node,/Users/ornelahunda/liri-node-app/liri.js,spotify-this-song,make,you,feel,my,love
+ 
+DATA OUTPUT:
+Artist: Adele
+Song: Make You Feel My Love
+Preview Link: https://p.scdn.co/mp3-preview/ee19b577b18ab550757c2fab5bd307921a3a1db5?cid=1b620185050e46bd983e06aeda97bd3a
+Album: 19
+=============== LOG ENTRY END ===============
+ 
+=============== LOG ENTRY BEGIN ===============
+Mon Apr 16 2018 16:24:24 GMT-0400 (EDT)
+ 
+TERMINAL COMMANDS:
+$: /usr/local/bin/node,/Users/ornelahunda/liri-node-app/liri.js,spotify-this-song,make,you,feel,my,love
+ 
+DATA OUTPUT:
+Artist: Adele
+Song: Make You Feel My Love
+Preview Link: https://p.scdn.co/mp3-preview/ee19b577b18ab550757c2fab5bd307921a3a1db5?cid=1b620185050e46bd983e06aeda97bd3a
+Album: 19
+=============== LOG ENTRY END ===============
+ 
+=============== LOG ENTRY BEGIN ===============
+Mon Apr 16 2018 16:31:43 GMT-0400 (EDT)
+ 
+TERMINAL COMMANDS:
+$: /usr/local/bin/node,/Users/ornelahunda/liri-node-app/liri.js,spotify-this-song
+ 
+DATA OUTPUT:
+Artist: Ace of Base
+Song: The Sign
+Preview Link: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=1b620185050e46bd983e06aeda97bd3a
+Album: The Sign (US Album) [Remastered]
+=============== LOG ENTRY END ===============
+ 
+=============== LOG ENTRY BEGIN ===============
+Mon Apr 16 2018 16:44:03 GMT-0400 (EDT)
+ 
+TERMINAL COMMANDS:
+$: /usr/local/bin/node,/Users/ornelahunda/liri-node-app/liri.js,spotify-this-song,wasted,times
+ 
+DATA OUTPUT:
+Artist: The Weeknd
+Song: Wasted Times
+Preview Link: null
+Album: My Dear Melancholy,
+=============== LOG ENTRY END ===============
+ 
+=============== LOG ENTRY BEGIN ===============
+Mon Apr 16 2018 16:45:03 GMT-0400 (EDT)
+ 
+TERMINAL COMMANDS:
+$: /usr/local/bin/node,/Users/ornelahunda/liri-node-app/liri.js,spotify-this-song,space,for,two
+ 
+DATA OUTPUT:
+Artist: Mr. Probz
+Song: Space For Two
+Preview Link: https://p.scdn.co/mp3-preview/bc849ac7060c867aded99d23443be39d164f440c?cid=1b620185050e46bd983e06aeda97bd3a
+Album: Space For Two
+=============== LOG ENTRY END ===============
+ 
+=============== Tweets Entry Start ===============
+Mon Apr 16 2018 16:47:04 GMT-0400 (EDT)
+ 
+TERMINAL COMMANDS:
+$: /usr/local/bin/node,/Users/ornelahunda/liri-node-app/liri.js,my-tweets
+ 
+DATA OUTPUT:
+1. Tweet: I was made to open a twitter account!! This was not voluntary!! 😩
+#myfirstTweet
+Created at: Mon Apr 09 14:25:48 +0000 2018 
+=============== LOG ENTRY END ===============
+ 
+=============== LOG ENTRY BEGIN ===============
+Mon Apr 16 2018 16:53:16 GMT-0400 (EDT)
+ 
+TERMINAL COMMANDS:
+$: /usr/local/bin/node,/Users/ornelahunda/liri-node-app/liri.js,spotify-this-song,bodak,yellow
+ 
+DATA OUTPUT:
+Artist: Cardi B
+Song: Bodak Yellow
+Preview Link: https://p.scdn.co/mp3-preview/35254f7611813c692709161d41cb04a694c9b5fa?cid=1b620185050e46bd983e06aeda97bd3a
+Album: Bodak Yellow
+=============== LOG ENTRY END ===============
+ 
+=============== Tweets Entry Start ===============
+Mon Apr 16 2018 16:54:15 GMT-0400 (EDT)
+ 
+=============== LOG ENTRY START ===============
+Tue Apr 17 2018 09:58:30 GMT-0400 (EDT)
+ 
+TERMINAL COMMANDS: /usr/local/bin/node,/Users/ornelahunda/liri-node-app/liri.js,movie-this,harry,potter
+DATA OUTPUT:
+Title: Harry Potter and the Deathly Hallows: Part 2
+Year: 2011
+IMDb Rating: 8.1
+Country: USA, UK
+Language: English
+Plot: Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts.
+Actors: Ralph Fiennes, Michael Gambon, Alan Rickman, Daniel Radcliffe
+Rotten Tomatoes Rating: 96%
+ =============== LOG ENTRY END ===============
+ 
+=============== LOG ENTRY START ===============
+Tue Apr 17 2018 11:26:01 GMT-0400 (EDT)
+ 
+TERMINAL COMMANDS:
+$: /usr/local/bin/node,/Users/ornelahunda/liri-node-app/liri.js,spotify-this-song,photographs
+ 
+DATA OUTPUT:
+Artist: Jim Croce
+Song: Bad, Bad Leroy Brown
+Preview Link: https://p.scdn.co/mp3-preview/61903380c8e8a6f4944fb14cf5defd910e209c7a?cid=1b620185050e46bd983e06aeda97bd3a
+Album: Photographs & Memories - His Greatest Hits
+=============== LOG ENTRY END ===============
+ 
+=============== LOG ENTRY START ===============
+Tue Apr 17 2018 11:26:29 GMT-0400 (EDT)
+ 
+TERMINAL COMMANDS:
+$: /usr/local/bin/node,/Users/ornelahunda/liri-node-app/liri.js,do-what-it-says
+ 
+DATA OUTPUT:
+Artist: Ace of Base
+Song: The Sign
+Preview Link: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=1b620185050e46bd983e06aeda97bd3a
+Album: The Sign (US Album) [Remastered]
+=============== LOG ENTRY END ===============
+ 
+ ================ LOG ENTRY START ================
+Tue Apr 17 2018 11:31:09 GMT-0400 (EDT)
+ 
+TERMINAL COMMANDS:
+$: /usr/local/bin/node,/Users/ornelahunda/liri-node-app/liri.js,my-tweets
+ 
+DATA OUTPUT:
+1. Tweet: Genius might be the ability to say a profound thing in a simple way.
+Created at: Tue Apr 17 15:30:33 +0000 2018 
+2. Tweet: Bad taste creates many more millionaires than good taste.
+Created at: Tue Apr 17 15:30:12 +0000 2018 
+3. Tweet: You begin saving the world by saving one man at a time; all else is grandiose romanticism or politics.
+Created at: Tue Apr 17 15:29:55 +0000 2018 
+4. Tweet: If you're losing your soul and you know it, then you've still got a soul left to lose.
+Created at: Tue Apr 17 15:29:41 +0000 2018 
+5. Tweet: I don't hate people. I just feel better when they aren't around.
+Created at: Tue Apr 17 15:29:25 +0000 2018 
+6. Tweet: An intellectual says a simple thing in a hard way. An artist says a hard thing in a simple way.
+Created at: Tue Apr 17 15:29:14 +0000 2018 
+7. Tweet: To do a dull thing with style-now that's what I call art.
+Created at: Tue Apr 17 15:28:52 +0000 2018 
+8. Tweet: Some people never go crazy. What truly horrible lives they must lead.
+Created at: Tue Apr 17 15:28:36 +0000 2018 
+9. Tweet: The free soul is rare, but you know it when you see it - basically because you feel good, very good, when you are near or with them.
+Created at: Tue Apr 17 15:28:15 +0000 2018 
+10. Tweet: We are here to laugh at the odds and live our lives so well that Death will tremble to take us.
+Created at: Tue Apr 17 15:27:43 +0000 2018 
+================ LOG ENTRY END ================
+ 
